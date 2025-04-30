@@ -16,7 +16,7 @@ Examples of connecting to openLCA databases are shown in the following.
 **Opening JSON-LD**
 
 ```py
->>> from netlolca.NetlOlca immport NetlOlca
+>>> from netlolca.NetlOlca import NetlOlca
 >>> netl = NetlOlca()
 >>> netl.open("scratch/data/ELCI_1_20191115_091804.zip")
 >>> netl.read()
@@ -125,16 +125,12 @@ This package utilizes the [Numpy Style Guide](https://numpydoc.readthedocs.io/en
 
 _Standard packages_:
 
-* copy
-* datetime
-* functools
 * json
 * logging
-* math
 * os
-* textwrap
-* urllib
-* zipfile
+* re
+* shutil
+* sys
 
 _Third-party packages_:
 

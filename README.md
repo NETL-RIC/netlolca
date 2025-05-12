@@ -1,4 +1,6 @@
 # netlolca
+[![DOI - 10.18141/2503973](https://img.shields.io/badge/DOI-10.18141%2F2503973-blue)](https://doi.org/10.18141/2503973)
+
 A Python package with tools for interacting with openLCA (version 2) and for developing and reporting NETL LCA unit processes.
 
 The foundation of all tools in this package is the NetlOlca class.

@@ -3,4 +3,4 @@
 #
 # __init__.py
 #
-from NetlOlca import *
+from netlolca.NetlOlca import *
